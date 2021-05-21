@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center_vertical"
+    tools:context=".Finalquestion">
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/selectany"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select the Following....."
+        android:layout_marginLeft="25dp"
+        android:textColor="#FDFDFE"
+        android:textSize="20dp"
+        android:gravity="left"
+        android:fontFamily="serif"
+        android:textStyle="bold|italic">
+
+    </androidx.appcompat.widget.AppCompatTextView>
+
+    <RadioGroup
+        android:id="@+id/goal"
+        android:layout_below="@+id/selectany"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What is your goal?"
+            android:layout_marginLeft="25dp"
+            android:textColor="#FDFDFE"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <RadioButton
+        android:id="@+id/loseweight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="Lose Weight"
+        android:textColor="#FDFDFE"
+        android:textSize="20sp">
+
+    </RadioButton>
+    <RadioButton
+        android:id="@+id/maintainweight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="Maintain Weight"
+        android:textColor="#FDFDFE"
+        android:textSize="20sp">
+
+    </RadioButton>
+        <RadioButton
+            android:id="@+id/gainweight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="Gain Weight"
+            android:textColor="#FDFDFE"
+            android:textSize="20sp">
+
+        </RadioButton>
+
+</RadioGroup>
+    <RadioGroup
+        android:id="@+id/secondquestion"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/goal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How active you?"
+            android:layout_marginLeft="25dp"
+            android:textColor="#FDFDFE"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/sedentary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="Sedentary Worker(Sitting most of the day"
+            android:textColor="#FDFDFE"
+            android:textSize="15sp">
+
+        </RadioButton>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eg:Receptionist,Bank Manager,Driver,Doctor"
+            android:layout_marginLeft="25dp"
+            android:textColor="#FDFDFE"
+            android:textSize="15dp"
+            android:textStyle="bold">
+
+        </androidx.appcompat.widget.AppCompatTextView>
+        <RadioButton
+            android:id="@+id/moderateworker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="Moderate Worker(Doing physical activity most of the day"
+            android:textColor="#FDFDFE"
+            android:textSize="12sp">
+
+        </RadioButton>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eg:Postman,Bus Conductor,Tailor"
+            android:layout_marginLeft="25dp"
+            android:textColor="#FDFDFE"
+            android:textSize="15dp"
+            android:textStyle="bold">
+
+        </androidx.appcompat.widget.AppCompatTextView>
+
+        <RadioButton
+            android:id="@+id/heavyworker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="Heavy Worker"
+            android:textColor="#FDFDFE"
+            android:textSize="20sp">
+
+        </RadioButton>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eg:Coal miner,Labourer,Steel worker,Carpenter"
+            android:layout_marginLeft="25dp"
+            android:textColor="#FDFDFE"
+            android:textSize="15dp"
+            android:textStyle="bold">
+
+        </androidx.appcompat.widget.AppCompatTextView>
+
+
+    </RadioGroup>
+
+
+    <Button
+        style="@style/button_backgroud"
+        android:layout_marginTop="10dp"
+        android:text="Finish"
+        android:layout_below="@+id/secondquestion"
+        android:id="@+id/finalquetion"
+        ></Button>
+
+</RelativeLayout>

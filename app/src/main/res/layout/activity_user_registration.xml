@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorPrimaryDark"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UserRegistration">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/circleprofileview"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:scaleType="centerInside"
+        android:layout_marginLeft="100dp"
+        android:src="@drawable/login1"
+        app:civ_border_color="@color/colorPrimaryDark"
+        app:civ_border_width="2dp" />
+
+    <EditText
+        style="@style/edit_text"
+        android:layout_below="@id/circleprofileview"
+        android:inputType="text"
+        android:hint="User Name"
+        android:id="@+id/username"></EditText>
+    <EditText
+        style="@style/edit_text"
+        android:inputType="textEmailAddress"
+        android:hint="Email Address"
+        android:layout_below="@id/username"
+        android:id="@+id/useremailid"></EditText>
+    <EditText
+        style="@style/edit_text"
+        android:inputType="textPassword"
+        android:hint="Enter Password"
+        android:layout_below="@id/useremailid"
+        android:id="@+id/userpassword"></EditText>
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/userpassword"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:layout_marginLeft="25dp"
+            android:textColor="#FDFDFE"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radiomale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="Male"
+            android:textColor="#FDFDFE"
+            android:textSize="20sp">
+
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/radiofemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="Female"
+            android:textColor="#FDFDFE"
+            android:textSize="20sp">
+
+        </RadioButton>
+
+    </RadioGroup>
+
+
+    <Button
+        style="@style/button_backgroud"
+        android:text="REGISTER"
+        android:layout_below="@+id/radiogroup"
+        android:id="@+id/register"
+        ></Button>
+</RelativeLayout>
+
+</ScrollView>

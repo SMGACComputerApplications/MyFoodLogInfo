@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/foodcard_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product Name"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            />
+
+    <ImageView
+        android:id="@+id/foodcard_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/foodcard_name"
+        android:layout_marginTop="2dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/im_view" />
+
+
+    </LinearLayout>
+

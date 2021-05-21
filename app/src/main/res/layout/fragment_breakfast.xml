@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.BreakfastFragment">
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/searchfood"
+        app:defaultQueryHint="Search Your Foods Here"
+        app:queryHint="Search Your Foods Here"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </androidx.appcompat.widget.SearchView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@+id/searchfood"
+        android:id="@+id/breakfastfoodlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>

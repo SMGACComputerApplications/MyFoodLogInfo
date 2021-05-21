@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="2">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/circlefoodview1"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:scaleType="centerInside"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/login1"
+            app:civ_border_color="@color/colorPrimaryDark"
+            app:civ_border_width="2dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/qno1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:gravity="left"
+            android:singleLine="true"
+            android:text="Chicken Biriyani"
+            android:textColor="#000000"
+            android:textSize="8sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/c1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/qno"
+            android:layout_marginTop="2dp"
+            android:gravity="left"
+            android:singleLine="true"
+            android:text="Chicken Biriyani"
+            android:textColor="#000000"
+            android:textSize="8sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/pr1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/qno"
+            android:layout_marginTop="2dp"
+            android:gravity="left"
+            android:singleLine="true"
+            android:text="Chicken Biriyani"
+            android:textColor="#000000"
+            android:textSize="8sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/en1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/qno"
+            android:layout_marginTop="2dp"
+            android:gravity="left"
+            android:singleLine="true"
+            android:text="Chicken Biriyani"
+            android:textColor="#000000"
+            android:textSize="8sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/fa1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/qno"
+            android:layout_marginTop="2dp"
+            android:gravity="left"
+            android:singleLine="true"
+            android:text="Chicken Biriyani"
+            android:textColor="#000000"
+            android:textSize="8sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/fi1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/qno"
+            android:layout_marginTop="2dp"
+            android:gravity="left"
+            android:singleLine="true"
+            android:text="Chicken Biriyani"
+            android:textColor="#000000"
+            android:textSize="8sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/n1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/qno"
+            android:layout_marginTop="2dp"
+            android:gravity="left"
+            android:singleLine="true"
+            android:text="Chicken Biriyani"
+            android:textColor="#000000"
+            android:textSize="8sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

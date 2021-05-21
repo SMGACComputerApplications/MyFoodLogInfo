@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<EditTextPreference
+    android:key="height"
+    android:title="Enter your Height"
+    android:defaultValue="0"></EditTextPreference>
+<EditTextPreference
+    android:key="weight">
+</EditTextPreference>
+    <EditTextPreference
+        android:key="age"></EditTextPreference>
+
+    <ListPreference android:key="gender">
+
+    </ListPreference>
+
+
+<EditTextPreference
+    android:key="waist">
+
+</EditTextPreference>
+    <EditTextPreference
+        android:key="hip"></EditTextPreference>
+    <ListPreference
+        android:key="work">
+
+    </ListPreference>
+    <ListPreference
+        android:key="goal"></ListPreference>
+
+<EditTextPreference
+    android:key="energy"></EditTextPreference>
+</PreferenceScreen>

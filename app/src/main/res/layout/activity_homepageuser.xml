@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".homepageuser">
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:textColor="#FDFDFE"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="@string/content">
+
+    </androidx.appcompat.widget.AppCompatTextView>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_gravity="left"
+        android:textColor="#FDFDFE"
+        android:textStyle="bold"
+        android:gravity="left"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:text="@string/content2">
+
+    </androidx.appcompat.widget.AppCompatTextView>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_gravity="left"
+        android:textColor="#FDFDFE"
+        android:textStyle="bold"
+        android:gravity="left"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:text="@string/content3">
+
+    </androidx.appcompat.widget.AppCompatTextView>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_gravity="left"
+        android:textColor="#FDFDFE"
+        android:textStyle="bold"
+        android:gravity="left"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:text="@string/content4">
+
+    </androidx.appcompat.widget.AppCompatTextView>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_gravity="left"
+        android:textColor="#FDFDFE"
+        android:textStyle="bold"
+        android:gravity="left"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:text="@string/content5">
+
+    </androidx.appcompat.widget.AppCompatTextView>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_gravity="left"
+        android:textColor="#FDFDFE"
+        android:textStyle="bold"
+        android:gravity="left"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:text="@string/content6">
+
+    </androidx.appcompat.widget.AppCompatTextView>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

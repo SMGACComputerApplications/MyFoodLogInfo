@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    tools:context=".Userhome">
+    <TableLayout
+        android:id="@+id/table1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center">
+        <TableRow android:weightSum="2">
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textColor="#FDFDFE"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                >
+
+
+            </androidx.appcompat.widget.AppCompatTextView>
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:id="@+id/username1"
+                android:textColor="#FDFDFE"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                />
+
+        </TableRow>
+        <TableRow android:weightSum="2">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Age"
+            android:textColor="#FDFDFE"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            >
+
+
+        </androidx.appcompat.widget.AppCompatTextView>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Age"
+            android:id="@+id/userage1"
+            android:textColor="#FDFDFE"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            />
+
+    </TableRow>
+        <TableRow android:weightSum="2">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Height"
+            android:textColor="#FDFDFE"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            >
+
+
+        </androidx.appcompat.widget.AppCompatTextView>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:id="@+id/userheight1"
+            android:textColor="#FDFDFE"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            />
+
+    </TableRow>
+        <TableRow android:weightSum="2">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Weight"
+            android:textColor="#FDFDFE"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            >
+
+
+        </androidx.appcompat.widget.AppCompatTextView>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:id="@+id/userweight1"
+            android:textColor="#FDFDFE"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            />
+
+    </TableRow>
+        <TableRow android:weightSum="2">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BMI Value"
+            android:textColor="#FDFDFE"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            >
+
+
+        </androidx.appcompat.widget.AppCompatTextView>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:id="@+id/userbmivalue"
+            android:textColor="#FDFDFE"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            />
+
+
+    </TableRow>
+        <TableRow android:weightSum="2">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Waist"
+            android:textColor="#FDFDFE"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            >
+
+
+        </androidx.appcompat.widget.AppCompatTextView>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:id="@+id/userwaist"
+            android:textColor="#FDFDFE"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            />
+
+    </TableRow>
+        <TableRow android:weightSum="2">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hip"
+            android:textColor="#FDFDFE"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            >
+
+
+        </androidx.appcompat.widget.AppCompatTextView>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:id="@+id/userhip1"
+            android:textColor="#FDFDFE"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            />
+
+    </TableRow>
+        <TableRow android:weightSum="2">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Waist Hip Ratio "
+            android:textColor="#FDFDFE"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            >
+
+
+        </androidx.appcompat.widget.AppCompatTextView>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:id="@+id/userwaisthipratio"
+            android:textColor="#FDFDFE"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            />
+
+    </TableRow>
+        <TableRow android:weightSum="2">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Health Risk"
+            android:textColor="#FDFDFE"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            >
+
+
+        </androidx.appcompat.widget.AppCompatTextView>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:id="@+id/userhealthrisk"
+            android:textColor="#FDFDFE"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            />
+
+    </TableRow>
+        <TableRow android:weightSum="2">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Body Shape"
+            android:textColor="#FDFDFE"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            >
+
+
+        </androidx.appcompat.widget.AppCompatTextView>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:id="@+id/userbodyshape"
+            android:textColor="#FDFDFE"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            />
+
+    </TableRow>
+        <TableRow android:weightSum="2">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Energy BMR"
+            android:textColor="#FDFDFE"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            >
+
+
+        </androidx.appcompat.widget.AppCompatTextView>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:id="@+id/userenergybmr"
+            android:textColor="#FDFDFE"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            />
+
+    </TableRow>
+        <TableRow android:weightSum="2">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Needed Energy "
+            android:textColor="#FDFDFE"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            >
+
+
+        </androidx.appcompat.widget.AppCompatTextView>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:id="@+id/userneededenergy"
+            android:textColor="#FDFDFE"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            />
+
+    </TableRow>
+        <TableRow android:layout_weight="2">
+
+        </TableRow>
+    </TableLayout>
+    <Button
+
+        style="@style/button_backgroud"
+        android:text="BMI Calculation"
+        android:layout_below="@+id/table1"
+        android:id="@+id/bmicalc"
+        ></Button>
+
+
+</RelativeLayout>
+
+

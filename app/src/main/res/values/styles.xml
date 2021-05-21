@@ -1,0 +1,99 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorAccent</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+
+    </style>
+
+    <style name="nopr">
+        <item name="android:actionBarSize">1dp</item>
+
+    </style>
+
+    <style name="noaction" parent="@style/Theme.AppCompat.Light">
+        <item name="android:actionBarSize">3dp</item>
+
+    </style>
+
+    <style name="NoActionBar" parent="@style/Theme.AppCompat.Light">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">false</item>
+    </style>
+
+    <style name="customactionbar">
+        <item name="android:colorBackground">@color/white</item>
+
+    </style>
+
+    <style name="edit_text">
+        <item name="android:background">@drawable/edit_textbackgroud</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:ems">10</item>
+        <item name="android:fadingEdgeLength">10dp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="layout_dessign">
+        <item name="android:background">@drawable/button_style</item>
+    </style>
+
+    <style name="edit_text1">
+        <item name="android:background">@drawable/edit_textbackgroud</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:ems">10</item>
+        <item name="android:fadingEdgeLength">10dp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+
+    <style name="button_backgroud">
+        <item name="android:background">@drawable/button_style</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:textColor">#FDFDFE</item>
+        <item name="android:ems">10</item>
+
+
+    </style>
+
+    <style name="button_backgroud1">
+        <item name="android:background">@drawable/button_style</item>
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:textColor">#FDFDFE</item>
+        <item name="android:ems">10</item>
+
+
+    </style>
+
+    <style name="button_backgroud12">
+        <item name="android:background">@drawable/button_style</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FDFDFE</item>
+        <item name="android:ems">10</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#ff4081</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="white">#00FDFCFC</color>
+    <color name="dividercolor">#80cbc4</color>
+    <color name="list_name">#AAAAAA</color>
+    <color name="home_screen">#B14F30</color>
+    <color name="colorAccent1">#F189AE</color>
+    <color name="colorprimary2">#353e4f</color>
+
+
+
+</resources>

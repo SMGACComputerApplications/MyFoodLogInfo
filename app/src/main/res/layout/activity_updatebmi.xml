@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".updatebmi">
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/Bmitext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BMI Calculation"
+            android:textColor="#FDFDFE"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Height"
+                android:textColor="#FDFDFE"
+                android:textStyle="bold"
+                android:textSize="20dp"
+
+                />
+
+            <TextView
+                android:id="@+id/bmiheight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BMI"
+                android:textColor="#FDFDFE"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Weight"
+                android:textColor="#FDFDFE"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:id="@+id/bmiweight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BMI"
+                android:textColor="#FDFDFE"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Age  "
+                android:textColor="#FDFDFE"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"
+                />
+
+            <TextView
+                android:id="@+id/bmiage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Age"
+                android:textColor="#FDFDFE"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BMI Value"
+                android:textColor="#FDFDFE"
+                android:textStyle="bold"
+                android:textSize="20dp"
+
+                />
+
+            <TextView
+                android:id="@+id/bmivalue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BMI"
+                android:textColor="#FDFDFE"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                />
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BMI Result"
+                android:textColor="#FDFDFE"
+                android:textStyle="bold"
+                android:textSize="20dp"
+
+                />
+
+            <TextView
+                android:id="@+id/bmiresult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BMI"
+                android:textColor="#FDFDFE"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                />
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/l1wel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Waist Hip Ratio"
+                android:textColor="#FDFDFE"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Waist"
+                    android:textColor="#FDFDFE"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_marginTop="5dp"
+                    />
+
+                <TextView
+                    android:id="@+id/diswaist"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="உரவ"
+                    android:textColor="#FDFDFE"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hip"
+                    android:textColor="#FDFDFE"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_marginTop="5dp"
+                    />
+
+                <TextView
+                    android:id="@+id/diship"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BMI"
+                    android:textColor="#FDFDFE"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Health Risk"
+                    android:textColor="#FDFDFE"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_marginTop="5dp"
+                    />
+
+                <TextView
+                    android:id="@+id/dishealth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BMI"
+                    android:textColor="#FDFDFE"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Body Shape"
+                    android:textColor="#FDFDFE"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_marginTop="5dp"
+                    />
+
+                <TextView
+                    android:id="@+id/disbody"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BMI"
+                    android:textColor="#FDFDFE"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Your Energy "
+                    android:textColor="#FDFDFE"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_marginTop="5dp"
+                    />
+
+                <TextView
+                    android:id="@+id/disenergy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="உரவ"
+                    android:textColor="#FDFDFE"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout></LinearLayout>
+
+</LinearLayout>

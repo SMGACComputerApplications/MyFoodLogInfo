@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".BMICalc">
+    <TextView
+        android:id="@+id/Bmitext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BMI Calculation"
+        android:textColor="#FDFDFE"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatEditText
+
+        android:layout_height="wrap_content"
+        style="@style/edit_text"
+        android:inputType="number"
+        android:hint="Enter Your Weight(Kg)"
+        android:id="@+id/userheight"
+        android:layout_below="@+id/Bmitext"
+        android:layout_width="match_parent">
+
+    </androidx.appcompat.widget.AppCompatEditText>
+
+    <androidx.appcompat.widget.AppCompatEditText
+
+        android:layout_height="wrap_content"
+        style="@style/edit_text"
+        android:hint="Enter Your Height(Meter)"
+        android:id="@+id/userweight"
+        android:inputType="number"
+        android:layout_below="@+id/userheight"
+        android:layout_width="match_parent">
+
+
+    </androidx.appcompat.widget.AppCompatEditText>
+    <androidx.appcompat.widget.AppCompatEditText
+
+        android:layout_height="wrap_content"
+        style="@style/edit_text"
+        android:hint="Enter Your Age"
+        android:id="@+id/userage"
+        android:inputType="number"
+        android:layout_below="@+id/userweight"
+        android:layout_width="match_parent">
+
+    </androidx.appcompat.widget.AppCompatEditText>
+
+    <Button
+        style="@style/button_backgroud"
+        android:text="BMI Calculation"
+        android:layout_below="@+id/userage"
+        android:id="@+id/bmicalc"
+        ></Button>
+
+
+</RelativeLayout>

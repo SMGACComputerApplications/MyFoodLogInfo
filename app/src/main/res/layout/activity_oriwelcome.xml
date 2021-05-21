@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".Oriwelcome">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/circleview"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:scaleType="centerInside"
+            android:layout_marginLeft="100dp"
+            android:src="@drawable/im_view"
+            app:civ_border_color="#FDFDFE"
+            app:civ_border_width="2dp" />
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@id/circleview"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ic_plus"
+            android:layout_marginRight="100dp"
+            android:id="@+id/upload"
+            android:shadowRadius="1">
+        </Button>
+
+        <EditText
+            android:layout_below="@+id/upload"
+            style="@style/edit_text"
+            android:inputType="text"
+            android:hint="Enter Recipe Name"
+            android:id="@+id/RecipeName"></EditText>
+
+        <EditText
+            android:layout_below="@+id/RecipeName"
+            android:layout_width="250dp"
+            style="@style/edit_text"
+            android:inputType="number"
+            android:hint="Enter No Of Quantity" android:id="@+id/Quantity"></EditText>
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/unit"
+            android:prompt="@array/unitsSpin"
+            android:layout_marginRight="80dp"
+            android:layout_alignBottom="@+id/Quantity"
+            android:layout_alignParentRight="true">
+        </Spinner>
+        <EditText
+            android:layout_below="@+id/unit"
+            style="@style/edit_text"
+            android:inputType="number"
+
+            android:hint="Enter Energy(KCAL)"
+            android:id="@+id/Energy"></EditText>
+        <EditText
+            android:layout_below="@+id/Energy"
+            style="@style/edit_text"
+            android:inputType="number"
+            android:hint="Enter Carbohyd Rate(G)"
+            android:id="@+id/Carbohyd"></EditText>
+
+        <EditText
+            android:layout_below="@+id/Carbohyd"
+            style="@style/edit_text"
+            android:inputType="numberDecimal"
+            android:hint="Enter Protein(G)"
+            android:id="@+id/Protein"></EditText>
+        <EditText
+            android:layout_below="@+id/Protein"
+            style="@style/edit_text"
+            android:inputType="numberDecimal"
+            android:hint="Enter Fat(G)"
+            android:id="@+id/Fat"></EditText>
+        <EditText
+            android:layout_below="@+id/Fat"
+            style="@style/edit_text"
+            android:inputType="numberDecimal"
+            android:hint="Enter Fibre(G)"
+            android:id="@+id/Fibre"></EditText>
+        <EditText
+            android:layout_below="@+id/Fibre"
+            style="@style/edit_text"
+            android:inputType="numberDecimal"
+            android:hint="Enter Net Carb(G)"
+            android:id="@+id/NetCarb"></EditText>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/NetCarb"
+            android:layout_centerInParent="true"
+            android:id="@+id/save"
+            android:text="UPLOAD"
+            style="@style/button_backgroud">
+        </Button>
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>

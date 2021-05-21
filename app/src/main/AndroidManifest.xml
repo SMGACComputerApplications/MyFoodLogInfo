@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.myadministrator">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logoscreen"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon">
+        <activity android:name=".displaybmivisual"></activity>
+        <activity android:name=".selectionfoodtamil" />
+        <activity android:name=".bmivisual" />
+        <activity android:name=".display" />
+        <activity android:name=".settingsapp" />
+        <activity android:name=".preuserviewfooddetails"/>
+        <activity android:name=".MainTamil" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".previousdaydetails" />
+        <activity android:name=".Language" />
+        <activity android:name=".UserSelectTamil" />
+        <activity android:name=".BMIdisplay" />
+        <activity android:name=".homepageuser" />
+        <activity android:name=".BMICalc" />
+        <activity android:name=".displaywaisthip" />
+        <activity android:name=".updatebmi" />
+        <activity
+            android:name=".Main3Activity"
+            android:label="@string/title_activity_main3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".UserdetailsHomescreen" />
+        <activity android:name=".finalanswerdisplay" />
+        <activity android:name=".userviewfooddetails" />
+        <activity android:name=".Userfoodselecteditemlist" />
+        <activity android:name=".fooddescription" />
+        <activity android:name=".UserFoodSelection" />
+        <activity android:name=".FoodEnter" />
+        <activity android:name=".Userhome" />
+        <activity android:name=".userviewfooddetails1" />
+        <activity android:name=".Finalquestion" />
+        <activity android:name=".waisthip" />
+        <activity android:name=".BMICalculator" />
+        <activity android:name=".UserRegistration" />
+        <activity android:name=".ViewFoodDetails" />
+        <activity android:name=".searchitem" />
+        <activity android:name=".MainHome" />
+        <activity android:name=".Oriwelcome" />
+        <activity android:name=".View" />
+        <activity android:name=".WelcomeHome" />
+        <activity android:name=".Welcome" />
+        <activity android:name=".Home" />
+        <activity android:name=".Signup" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

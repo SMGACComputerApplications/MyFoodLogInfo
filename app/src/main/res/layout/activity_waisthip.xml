@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:layout_gravity="center_vertical"
+    android:gravity="center"
+    tools:context=".waisthip">
+    <TextView
+        android:id="@+id/waisthiptext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Waist Hip Ratio Calculation"
+        android:textColor="#FDFDFE"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatEditText
+
+        android:layout_height="wrap_content"
+        style="@style/edit_text"
+        android:inputType="number"
+        android:hint="Waist Circumference"
+        android:id="@+id/userwaist"
+        android:layout_below="@+id/waisthiptext"
+        android:layout_width="match_parent">
+
+    </androidx.appcompat.widget.AppCompatEditText>
+
+    <androidx.appcompat.widget.AppCompatEditText
+
+        android:layout_height="wrap_content"
+        style="@style/edit_text"
+        android:hint="Hip Circumference"
+        android:id="@+id/userhip"
+        android:inputType="number"
+        android:layout_below="@+id/userwaist"
+        android:layout_width="match_parent">
+
+
+    </androidx.appcompat.widget.AppCompatEditText>
+
+    <Button
+        style="@style/button_backgroud"
+        android:text="Waist Hip Calculation"
+        android:layout_below="@+id/userhip"
+        android:id="@+id/waisthipcalc"
+        ></Button>
+
+
+
+</RelativeLayout>

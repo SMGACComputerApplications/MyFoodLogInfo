@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    tools:context=".finalanswerdisplay">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/linear1"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/n1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/qno"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="Caloric Percentage"
+                android:textColor="#FDFDFE"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <LinearLayout
+
+            android:background="@drawable/customborder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/qno"
+                android:layout_marginTop="2dp"
+                android:gravity="left"
+                android:id="@+id/n2"
+                android:singleLine="true"
+                android:text="மாவுச்சத்து"
+                android:inputType="textMultiLine"
+                android:textColor="#000000"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/carbocall"
+                android:layout_marginTop="2dp"
+                android:gravity="left"
+                android:singleLine="true"
+                android:text="Carbo"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/customborder1"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:gravity="left"
+                android:id="@+id/n3"
+                android:singleLine="true"
+                android:text="புரதம்"
+                android:inputType="textMultiLine"
+                android:textColor="#000000"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/proteincall"
+                android:layout_marginTop="2dp"
+                android:gravity="left"
+                android:singleLine="true"
+                android:text="Carbo"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/customborder3"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/qno"
+                    android:layout_marginTop="2dp"
+                    android:gravity="left"
+                    android:singleLine="true"
+                    android:id="@+id/n4"
+                    android:inputType="textMultiLine"
+                    android:text="கொழுப்பு"
+                    android:textColor="#000000"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/fatcal"
+                    android:layout_marginTop="2dp"
+                    android:gravity="left"
+                    android:singleLine="true"
+                    android:text="Carbo"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+  <LinearLayout
+      android:layout_below="@+id/linear1"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          android:layout_gravity="center_horizontal"
+          android:background="@color/colorPrimaryDark">
+          <lecho.lib.hellocharts.view.PieChartView
+              android:id="@+id/chart"
+              android:layout_marginLeft="10dp"
+              android:layout_gravity="center_horizontal"
+              android:layout_width="200dp"
+              android:layout_height="200dp">
+
+          </lecho.lib.hellocharts.view.PieChartView>
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="2dp"
+              android:gravity="center"
+              android:singleLine="true"
+              android:text="Standard"
+              android:textColor="#000000"
+              android:textSize="18sp"
+              android:textStyle="bold" />
+
+
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="2dp"
+          android:layout_gravity="center_horizontal"
+          android:orientation="vertical"
+          android:background="@color/colorPrimaryDark">
+          <lecho.lib.hellocharts.view.PieChartView
+              android:id="@+id/chart1"
+              android:layout_width="200dp"
+              android:layout_marginLeft="10dp"
+              android:layout_height="200dp">
+          </lecho.lib.hellocharts.view.PieChartView>
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="2dp"
+              android:gravity="center"
+              android:singleLine="true"
+              android:text="Diet"
+              android:textColor="#000000"
+              android:textSize="18sp"
+              android:textStyle="bold" />
+
+      </LinearLayout>
+  </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

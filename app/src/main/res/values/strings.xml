@@ -1,0 +1,197 @@
+<resources>
+    <string name="app_name">MY Food Log</string>
+    <string name="action_sign_in_short">Register</string>
+    <string name="email">Email</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="change_email">Change Email</string>
+    <string name="change_password">Change Password</string>
+    <string name="send_password_reset_email">Send Password reset email</string>
+    <string name="remove_user">Remove user</string>
+    <string name="new_pass">New Password</string>
+    <string name="title_activity_profile">Firebase</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_link_to_register">Not a member? Get registered in Firebase now!</string>
+    <string name="btn_link_to_login">Already registered. Login Me!</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <string name="btn_forgot_password">Forgot your password?</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="hint_new_email">New Email</string>
+    <string name="btn_change">Change</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_remove">Remove</string>
+    <string name="btn_sign_out">Sign Out</string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
+    <string name="title_activity_home2">Home2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="title_activity_home_page1">HomePage1</string>
+    <string name="title_activity_home_page12">HomePage12</string>
+    <string-array name="unitsSpin">
+        <item>Cup</item>
+        <item>Gram</item>
+        <item>Katori</item>
+        <item>ML</item>
+        <item>No</item>
+        <item></item>
+    </string-array>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="content">Welcome to the Journey of Healthy Eating!</string>
+    <string name="content2">\t *My Food Log is your diet assistant to help you plan your daily clorie needs and goals.
+    It helps you to know the calorie intake from macronutrients present in the foods you choose.In other word,it helps you count words,it helps you to count of your calories and macros everyday.
+    </string>
+    <string name="content3">*What is new?* \n \t My Food Log has the common traditional foods of South Tamil Nadu which makes it most suitable to you!</string>
+    <string name="content4">**Congratulations on taking your first step to healthy eating!</string>
+    <string name="content5">Enjoy your dieting!**</string>
+    <string name="content6">Continue.....</string>
+    <string name="contenttamil1">* ஆரோக்கியமான உணவின் பயணத்திற்கு வருக! *</string>
+    <string name="contenttamil2">* உங்கள் தினசரி கலோரி தேவைகள் மற்றும் குறிக்கோள்களுக்கு ஏற்ப உங்கள் அன்றாட உணவைத் திட்டமிட உதவும்  * எனது உணவு பதிவு * உங்கள் உணவு உதவியாளர். நீங்கள் தேர்ந்தெடுக்கும் உணவுகளில் உள்ள  மேக்ரோ நியூட்‌ரியன்களிலிருந்து கலோரி உட்கொள்ளலை அறிய இது உதவுகிறது. வேறு வார்த்தைகளில் கூறுவதானால், உங்கள் கலோரிகளையும் மேக்ரோக்களையும் தினமும் எண்ண இது உதவுகிறது. </string>
+    <string name="contenttamil3">* புதியது என்ன? * \n \t எனது உணவுப் பதிவில் தென்
+        தமிழ்நாட்டின் பொதுவான பாரம்பரிய உணவுகள் உள்ளன, இது உங்களுக்கு மிகவும் பொருத்தமானது!</string>
+    <string name="contenttamil4">** ஆரோக்கியமான உணவுக்கு உங்கள் முதல் படி எடுத்ததற்கு வாழ்த்துக்கள்!</string>
+    <string name="contenttamil5">உங்கள் உணவு முறைகளை அனுபவிக்கவும்! ** </string>
+    <string name="contenttamil6">தொடரவும் ...</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_food_selection">FoodSelection</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_selectfood">Selectfood</string>
+    <string name="title_activity_food_enter">FoodEnter</string>
+    <string-array name="day">
+        <item>Day</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+    <string-array name="month">
+        <item>Month</item>
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>July</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+    <string-array name="year">
+        <item>Year</item>
+        <item>2020</item>
+
+    </string-array>
+    <string-array name="language">
+
+        <item>தமிழ்</item>
+        <item>English</item>
+    </string-array>
+    <string-array name="gendereng">
+
+        <item>Female</item>
+        <item>Male</item>
+
+
+    </string-array>
+
+
+
+    <string-array name="ranges">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+    </string-array>
+
+
+
+    <string-array name="gendertam">
+
+        <item>ஆண்</item>
+        <item>பெண்</item>
+    </string-array>
+    <string-array name="workeng">
+        <item>1. Sedentary worker (Sitting most of the day Eg:Receptionist,Bank Manager,Driver,Doctor)</item>
+
+        <item>2. Moderate Worker(Doing physical activity most of the day Eg:Postman,Bus Conductor,Tailor)</item>
+        <item>3. Heavy Worker Eg:Coal miner,Labourer,Steel worker,Carpenter</item>
+    </string-array>
+    <string-array name="worktam">
+        <item> 1. லேசான வேலை  (அலுவலக வேலை, மாணவர், மருத்துவர்கள், ஆசிரியர்கள்)</item>
+        <item> 2. மிதமான வேலை (எ.கா. தையல்காரர், பஸ் நடத்துனர், வீட்டு வேலை, தச்சு)</item>
+        <item> 3. கனமான வேலை (எ.கா. நிலக்கரி சுரங்க, எஃகு தொழிலாளி, தொழிலாளர்)</item>
+    </string-array>
+    <string-array name="goaleng">
+        <item>lose weight</item>
+        <item>gain weight</item>
+        <item>maintain weight</item>
+
+    </string-array>
+    <string-array name="goaltam">
+        <item>எடை இழக்க</item>
+        <item>எடை அதிகரிக்க</item>
+        <item>எடை பராமரிக்க</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main4">Main4Activity</string>
+    <string name="lan">language</string>
+
+</resources>

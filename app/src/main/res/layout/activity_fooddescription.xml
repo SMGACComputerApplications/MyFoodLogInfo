@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/coo"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".fooddescription">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rim">
+
+       <ImageView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:id="@+id/circlefoodview">
+
+
+
+  </ImageView>
+
+    </RelativeLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/rim">
+        <TableRow android:weightSum="2">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Quantity "
+                android:textColor="#FDFDFE"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:id="@+id/foodviewquantity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/circlefoodview"
+                android:text="Quantity"
+                android:textColor="#FDFDFE"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                />
+        </TableRow>
+        <TableRow android:weightSum="2">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Food Energy"
+                android:textColor="#FDFDFE"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:id="@+id/foodenergy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Food Energy "
+                android:textColor="#FDFDFE"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:weightSum="2">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Food Carbohyd"
+                android:textColor="#FDFDFE"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:id="@+id/foodcarbohyd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Food Energy"
+                android:textColor="#FDFDFE"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                />
+
+        </TableRow>
+        <TableRow android:weightSum="2">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Food Protein"
+                android:textColor="#FDFDFE"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:id="@+id/foodprotein"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Food Protein"
+                android:textColor="#FDFDFE"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                />
+
+        </TableRow>
+        <TableRow
+            android:weightSum="2">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/foodprotein"
+                android:text="Food Fat"
+                android:textColor="#FDFDFE"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:id="@+id/foodfat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Food Fat"
+                android:textColor="#FDFDFE"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                />
+
+
+        </TableRow>
+        <TableRow android:weightSum="2">
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/foodfat"
+                android:textColor="#FDFDFE"
+                android:text="Food Fibre"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:id="@+id/foodfibre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Food Fibre"
+                android:textColor="#FDFDFE"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                />
+
+
+        </TableRow>
+        <TableRow android:weightSum="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Food Net Carb"
+                android:textColor="#FDFDFE"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:id="@+id/foodnet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Food Net Carb"
+                android:textColor="#FDFDFE"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                />
+
+
+
+        </TableRow>
+    </TableLayout>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

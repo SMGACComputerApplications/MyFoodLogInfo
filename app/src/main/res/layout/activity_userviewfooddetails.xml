@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    style="@style/nopr"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".userviewfooddetails">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/needenergy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Needed Energy"
+                android:textColor="#FDFDFE"
+                android:textSize="15dp"
+                android:textStyle="bold"></androidx.appcompat.widget.AppCompatTextView>
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/yourenergy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Your Energy"
+                android:textColor="#FDFDFE"
+                android:textSize="15dp"
+                android:textStyle="bold"></androidx.appcompat.widget.AppCompatTextView>
+
+        </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:id="@+id/userfoodselection"
+        android:layout_height="match_parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/white"
+        android:background="@color/colorAccent">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginEnd="16dp"
+            android:autofillHints="Next"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="@color/colorAccent"
+            android:clickable="true"
+            android:scaleType="center"
+            android:src="@drawable/logo"
+            app:fabSize="auto"
+            app:maxImageSize="90dp"
+            app:useCompatPadding="true"></com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+

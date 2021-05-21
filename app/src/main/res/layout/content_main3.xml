@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_main">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/lin"
+        android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/t1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:textColor="#FDFDFE"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="@string/contenttamil1">
+
+    </androidx.appcompat.widget.AppCompatTextView>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_margin="10dp"
+            android:gravity="left"
+            android:text="@string/contenttamil2"
+            android:textColor="#FDFDFE"
+            android:textSize="20dp"
+            android:textStyle="bold">
+
+        </androidx.appcompat.widget.AppCompatTextView>
+
+        <androidx.appcompat.widget.AppCompatTextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_gravity="left"
+        android:textColor="#FDFDFE"
+        android:textStyle="bold"
+        android:gravity="left"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:text="@string/contenttamil3">
+
+    </androidx.appcompat.widget.AppCompatTextView>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_gravity="left"
+        android:textColor="#FDFDFE"
+        android:textStyle="bold"
+        android:gravity="left"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:text="@string/contenttamil4">
+
+    </androidx.appcompat.widget.AppCompatTextView>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_gravity="left"
+        android:textColor="#FDFDFE"
+        android:textStyle="bold"
+        android:gravity="left"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:text="@string/contenttamil5">
+
+    </androidx.appcompat.widget.AppCompatTextView>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_gravity="left"
+        android:textColor="#FDFDFE"
+        android:textStyle="bold"
+        android:gravity="left"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:text="@string/contenttamil6">
+
+    </androidx.appcompat.widget.AppCompatTextView>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/lin2"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/t2"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:textColor="#FDFDFE"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:text="@string/content">
+
+            </androidx.appcompat.widget.AppCompatTextView>
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_gravity="left"
+                android:textColor="#FDFDFE"
+                android:textStyle="bold"
+                android:gravity="left"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:text="@string/content2">
+
+            </androidx.appcompat.widget.AppCompatTextView>
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_gravity="left"
+                android:textColor="#FDFDFE"
+                android:textStyle="bold"
+                android:gravity="left"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:text="@string/content3">
+
+            </androidx.appcompat.widget.AppCompatTextView>
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_gravity="left"
+                android:textColor="#FDFDFE"
+                android:textStyle="bold"
+                android:gravity="left"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:text="@string/content4">
+
+            </androidx.appcompat.widget.AppCompatTextView>
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_gravity="left"
+                android:textColor="#FDFDFE"
+                android:textStyle="bold"
+                android:gravity="left"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:text="@string/content5">
+
+            </androidx.appcompat.widget.AppCompatTextView>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_gravity="left"
+                android:textColor="#FDFDFE"
+                android:textStyle="bold"
+                android:gravity="left"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:text="@string/content6">
+
+            </androidx.appcompat.widget.AppCompatTextView>
+        </LinearLayout>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/selectfood"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></androidx.recyclerview.widget.RecyclerView>
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            style="@style/button_backgroud1"
+            android:layout_gravity="bottom|right"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginBottom="16dp"
+            android:text="Next"
+            android:layout_below="@+id/userage"
+            android:id="@+id/nextfood"/>
+    </LinearLayout>
+    </ScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
